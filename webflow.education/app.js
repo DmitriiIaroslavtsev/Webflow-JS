@@ -185,7 +185,7 @@ console.log("Your budget is" + servicePrice1);
 
 let serviceType=  prompt("What else do you need")
 console.log( "your choise is"+ serviceType)
-*/
+
 let titleProject = prompt("Enter the name of your project:");
 console.log("Project Name: " + titleProject);
 
@@ -240,3 +240,33 @@ if(isNaN(totalPrice) || totalPrice < 0 ){
 } else {
     console.log("your price is zero")
 }
+
+let age = 31
+console.log(typeof age);
+console.log (age)
+
+let num = 31;
+let num2 =  300;
+console.log (num + num2)
+
+let x = 15;
+if (x > 10){
+console.log('Its Ok');
+} else {
+    console.log('Its not Ok');
+}
+*/
+
+let a = 5;
+let b = '10';
+let res = a + +b;
+console.log(res);
+//Для сложения строки и цифры перед переменной строки поставить +  ( a+ +b)
+
+let age1 = prompt(" Type your age");
+console.log (age1)
+
+let c = 18;
+let d = 10;
+console.log ( c + d);
+console.log( a % b );
